@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:keyboard_actions/keyboard_actions.dart';
-import 'keyboard_controller.dart';
+import 'keyboard_actions_controller.dart';
 
 /// Um exemplo de formulário que utiliza o KeyboardActionsController para melhorar a navegação entre campos.
 ///
