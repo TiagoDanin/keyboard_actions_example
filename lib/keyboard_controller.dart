@@ -6,7 +6,7 @@ import "package:keyboard_actions/keyboard_actions.dart";
 /// Este controlador resolve o problema da ausência de botões "Next" e "Done" no teclado
 /// numérico do iOS, criando uma barra de ferramentas personalizada que facilita a navegação
 /// entre os campos de um formulário.
-class KeyboardController {
+class KeyboardActionsController {
   /// Constrói os itens individuais para cada FocusNode na barra de ações do teclado.
   ///
   /// @param context O BuildContext atual

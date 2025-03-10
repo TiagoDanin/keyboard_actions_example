@@ -1,5 +1,5 @@
 name: keyboard_actions_example
-description: Exemplo de implementação do KeyboardController para resolver o problema do botão "Done" no teclado iOS.
+description: Exemplo de implementação do KeyboardActionsController para resolver o problema do botão "Done" no teclado iOS.
 version: 1.0.0+1
 publish_to: none
 

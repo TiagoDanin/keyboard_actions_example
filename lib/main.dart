@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:keyboard_actions_example/comparison_example.dart';
 
-/// Aplicativo de exemplo para demonstrar o uso do KeyboardController.
+/// Aplicativo de exemplo para demonstrar o uso do KeyboardActionsController.
 /// Este aplicativo mostra como resolver o problema da ausência de botões
 /// de navegação no teclado numérico do iOS.
 void main() {

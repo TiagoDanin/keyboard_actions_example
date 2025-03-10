@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:keyboard_actions/keyboard_actions.dart';
 import 'keyboard_controller.dart';
 
-/// Um exemplo de formulário que utiliza o KeyboardController para melhorar a navegação entre campos.
+/// Um exemplo de formulário que utiliza o KeyboardActionsController para melhorar a navegação entre campos.
 ///
 /// Este exemplo demonstra como criar um formulário com múltiplos campos de entrada
-/// e usar o KeyboardController para facilitar a navegação e a conclusão do formulário,
+/// e usar o KeyboardActionsController para facilitar a navegação e a conclusão do formulário,
 /// especialmente em dispositivos iOS onde o teclado numérico não possui botões de navegação nativos.
 class CustomKeyboardActionsExample extends StatefulWidget {
   const CustomKeyboardActionsExample({Key? key}) : super(key: key);
@@ -71,8 +71,8 @@ class _CustomKeyboardActionsExampleState extends State<CustomKeyboardActionsExam
   Widget build(BuildContext context) {
     return Scaffold(
       body: KeyboardActions(
-        // Usa o KeyboardController para configurar a barra de ações do teclado
-        config: KeyboardController.buildConfigKeyboardActions(
+        // Usa o KeyboardActionsController para configurar a barra de ações do teclado
+        config: KeyboardActionsController.buildConfigKeyboardActions(
           context: context,
           focusNodesSteps: _focusNodes,
           doneCallback: _submitForm,

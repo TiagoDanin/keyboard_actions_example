@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// Um exemplo de formulário sem o KeyboardController, mostrando o problema original.
+/// Um exemplo de formulário sem o KeyboardActionsController, mostrando o problema original.
 ///
 /// Este exemplo demonstra a limitação do teclado numérico do iOS, onde não há
 /// botões "Next" ou "Done" para facilitar a navegação entre campos.
